@@ -2,7 +2,7 @@
   <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
 </p>
 <p align="center">
-    <h1 align="center">PRODBASESOLUTIONS</h1>
+    <h1 align="center">PRODBASESOLUTIONS Unfinished</h1>
 </p>
 <p align="center">
     <em>ProdbaseSolutions is a comprehensive software solution designed to help small to medium-sized businesses efficiently manage their operations. This project is structured with a backend and a frontend component, providing a robust system to handle various business processes such as product management, client management, transaction handling, and more. The application includes features for analytics, reporting, user authentication, and secure data handling.
