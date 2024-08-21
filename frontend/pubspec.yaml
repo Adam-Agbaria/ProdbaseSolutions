@@ -1,0 +1,93 @@
+name: ProdBase_Solutions
+description: Streamlining business operations with an intuitive interface and robust database integration. Whether it's user management, transactions, or product tracking, we provide a seamless experience for all your business needs.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  http: ^0.13.3
+  flutter_dotenv: ^5.0.0
+  intl: ^0.18.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_secure_storage: ^9.0.0
+  fluro: ^2.0.3 
+  lottie: ^1.1.0
+  jiffy: ^6.2.1
+  flutter_stripe: ^9.4.0 
+  stripe_android: ^9.4.0
+  modal_bottom_sheet: ^2.1.2 
+  curved_navigation_bar: ^1.0.3  
+  flutter_svg: ^2.0.7
+  connectivity: ^3.0.6  
+  flutter_platform_widgets: ^3.3.5
+  desktop_window: ^0.4.0
+  menu_bar: ^0.5.3
+  file_picker: ^5.3.3
+  cupertino_icons: ^1.0.5
+  permission_handler: ^10.4.3
+  responsive_framework: ^1.0.0
+  hovering: ^1.0.4
+  path_provider: ^2.1.0
+  riverpod: ^2.3.7
+  hooks_riverpod: ^2.3.8
+  flutter_riverpod: ^2.3.10  # Check for the latest version
+  flutter_neumorphic: ^3.2.0
+  styled_widget: ^0.4.1
+  animated_text_kit: ^4.2.2 # Check the latest version
+  flutter_advanced_drawer: ^1.3.5
+  sidebarx: ^0.16.1
+  pull_to_refresh: ^2.0.0
+  flutter_screenutil: ^5.9.0
+  qr_code_scanner: ^1.0.1  # Check for the latest version on pub.dev
+  usb_serial: ^0.5.1
+  flutter_barcode_scanner: ^2.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.10
+  logger: ^1.1.0
+  pretty_dio_logger: ^1.0.5
+  golden_toolkit: ^0.15.0
+  flutter_gherkin: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/ProdBase-Solutions-Black.ttf
+    - assets/fonts/ProdBase-Solutions-BlackItalic.ttf
+    - assets/fonts/ProdBase-Solutions-Bold.ttf
+    
+
+  fonts:
+    - family: ProdBaseSolutions
+      fonts:
+        - asset: assets/fonts/ProdBase-Solutions-Black.ttf
+          weight: 900
+        - asset: assets/fonts/ProdBase-Solutions-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/ProdBase-Solutions-Bold.ttf
+          weight: 700
+    - family: CroissantOne
+      fonts:
+        - asset: assets/fonts/CroissantOne-Regular.ttf
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+    
+      
+
+flutter_intl:
+  enabled: true
