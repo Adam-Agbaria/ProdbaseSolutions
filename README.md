@@ -6,7 +6,7 @@
 </p>
 <p align="center">
     <em>ProdbaseSolutions is a comprehensive software solution designed to help small to medium-sized businesses efficiently manage their operations. This project is structured with a backend and a frontend component, providing a robust system to handle various business processes such as product management, client management, transaction handling, and more. The application includes features for analytics, reporting, user authentication, and secure data handling.
- `slogan`</em>
+ </em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/Adam-Agbaria/ProdbaseSolutions?style=flat&color=0080ff" alt="license">
